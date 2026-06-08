@@ -8,8 +8,8 @@ use App\Http\Controllers\ProdiController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
-    return redirect()->route('dashboard');
+    // return view('welcome');
+    return redirect()->route('login');
 });
 
 Route::get('/tentang', function () {
